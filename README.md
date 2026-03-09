@@ -25,4 +25,3 @@ TrueNAS (storage)       |  CrowdSec (security)
 |------|-------------|
 | [fueltrack](https://github.com/beaglemoo/fueltrack) | UK fuel price tracker - GOV.UK API to InfluxDB to Ghost |
 | [ghost-mcp-server](https://github.com/beaglemoo/ghost-mcp-server) | Patched Ghost MCP server for Claude Code |
-| [open-octopus](https://github.com/beaglemoo/open-octopus) | Octopus Energy API client and Mac app |
