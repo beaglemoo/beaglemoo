@@ -9,12 +9,3 @@ I run a three-node Proxmox cluster, a UniFi network with more VLANs than users, 
 **[FuelTrack](https://github.com/beaglemoo/fueltrack)** - Pulls fuel prices from all 7,400 UK petrol stations via the GOV.UK API, stores them in InfluxDB, and publishes a searchable page updated every 4 hours. [See it live](https://sillymoo.dev/uk-fuel-prices/)
 
 **[The Moo Log](https://sillymoo.dev)** - Blog documenting the homelab builds, the late-night debugging sessions, and the overengineered solutions to problems that didn't need solving.
-
-## The Stack
-
-```
-Proxmox VE (3 nodes)    |  Caddy (reverse proxy, DMZ + internal)
-LXC Containers (30+)    |  InfluxDB + Grafana (monitoring)
-UniFi (UCG Fiber)       |  Ghost (blog)
-TrueNAS (storage)       |  CrowdSec (security)
-```
