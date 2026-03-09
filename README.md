@@ -18,10 +18,3 @@ LXC Containers (30+)    |  InfluxDB + Grafana (monitoring)
 UniFi (UCG Fiber)       |  Ghost (blog)
 TrueNAS (storage)       |  CrowdSec (security)
 ```
-
-## Projects
-
-| Repo | What It Does |
-|------|-------------|
-| [fueltrack](https://github.com/beaglemoo/fueltrack) | UK fuel price tracker - GOV.UK API to InfluxDB to Ghost |
-| [ghost-mcp-server](https://github.com/beaglemoo/ghost-mcp-server) | Patched Ghost MCP server for Claude Code |
