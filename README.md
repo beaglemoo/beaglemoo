@@ -2,12 +2,25 @@
 
 Cloud lead by day, homelab hoarder by night.
 
-I run a three-node Proxmox cluster, a UniFi network with more VLANs than users, and 30+ LXC containers doing everything from reverse proxying to tracking petrol prices. It's a data centre if you squint.
+I run a three-node Proxmox cluster with 45-odd LXC containers, a UniFi network with more VLANs than users, and a Mac that spends its evenings running local LLMs. If something can be self-hosted, patched, monitored and then blogged about, it probably is. It's a data centre if you squint.
 
-## What I'm Working On
+## Recent builds
 
-**[Moovelo](https://github.com/beaglemoo/moovelo)** - Self-hosted bike route planner with direct Wahoo ELEMNT sync. Plan a route in the browser, hit send, and it's on the head unit with turn-by-turn cues - backed by Valhalla routing and a self-hosted CyclOSM tile server. [Read the build story](https://sillymoo.dev/i-just-wanted-turn-by-turn-on-my-wahoo-so-naturally-i-built-an-entire-route-planner/)
+**[steam-machine-hdmi21](https://github.com/beaglemoo/steam-machine-hdmi21)** - Real HDMI 2.1 on the Valve Steam Machine: 4K144 10-bit HDR and VRR on SteamOS 3.9, via a one-line amdgpu fix plus build, install and self-heal tooling. [Read the write-up](https://sillymoo.dev/two-kernel-bugs-and-a-missing-bit-getting-real-hdmi-2-1-out-of-the-steam-machine/)
 
-**[FuelTrack](https://github.com/beaglemoo/fueltrack)** - Pulls fuel prices from all 7,400 UK petrol stations via the GOV.UK API, stores them in InfluxDB, and publishes a searchable page updated every 4 hours. [See it live](https://sillymoo.dev/uk-fuel-prices/)
+**[geforce-now-stutter-fix-mac](https://github.com/beaglemoo/geforce-now-stutter-fix-mac)** - Event-driven fix for GeForce NOW stutter on Mac Wi-Fi. It suppresses AWDL only while you're streaming, using nothing but built-in macOS tools.
 
-**[The Moo Log](https://sillymoo.dev)** - Blog documenting the homelab builds, the late-night debugging sessions, and the overengineered solutions to problems that didn't need solving.
+**[capy.farm](https://capy.farm)** - A pixel-art capybara farm, for no reason other than capybaras. [Read how it happened](https://sillymoo.dev/the-farmer-who-only-wanted-to-pet-capybaras/)
+
+## Other bits
+
+- **[decky-speaker-boost](https://github.com/beaglemoo/decky-speaker-boost)** - Pushes Legion Go speaker volume past 100% with a native PipeWire gain filter ([blog](https://sillymoo.dev/i-just-wanted-it-louder-so-naturally-i-lost-all-sound-first/))
+- **[CLAUDE.md Editor](https://github.com/beaglemoo/claude-md-editor)** - Native macOS editor for CLAUDE.md files with Git version control
+
+## Writing
+
+**[The Moo Log](https://sillymoo.dev)** - Homelab builds, late-night debugging and over-engineered fixes for problems that didn't need solving. Recent posts:
+
+- [Two Kernel Bugs and a Missing Bit: Getting Real HDMI 2.1 out of the Steam Machine](https://sillymoo.dev/two-kernel-bugs-and-a-missing-bit-getting-real-hdmi-2-1-out-of-the-steam-machine/)
+- [The Farmer Who Only Wanted to Pet Capybaras](https://sillymoo.dev/the-farmer-who-only-wanted-to-pet-capybaras/)
+- [Teaching Six Security Cameras to Birdwatch](https://sillymoo.dev/teaching-six-security-cameras-to-birdwatch/)
